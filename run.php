@@ -3,4 +3,4 @@ require_once 'SequenceGenerator.php';
 
 
 
-(new SequenceGenerator(1,5))->generate(new MultiplierConfigurator(["test"=>"Fizz", 5=>"Buzz"]));
+(new SequenceGenerator())->generate(new MultiplierConfigurator([3=>"Fizz", 5=>"Buzz"]));
